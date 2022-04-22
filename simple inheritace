@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace simple_inheritance
+{
+    public class Program
+    {
+        public int rollno = 85;
+        public string name = "Pranjal";
+    }
+    class exam : Program
+    {
+        public static void Main(string[] args)
+        {
+            exam n = new exam();
+            Console.WriteLine(n.rollno);
+            Console.WriteLine(n.name);
+            Console.ReadLine();
+        }
+    }
+}
